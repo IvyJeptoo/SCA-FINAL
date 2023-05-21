@@ -94,6 +94,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "buy-and-sell:build:production",
+            "firebaseProject": "listing-works",
+            "firebaseHostingSite": "listing-web-app"
+          }
         }
       }
     }

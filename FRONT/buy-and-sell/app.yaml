@@ -1,0 +1,19 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+handlers:
+  - url: /
+    static_files: dist/buy-and-sell/index.html
+    upload: dist/buy-and-sell/index.html
+  - url: /
+    static_dir: dist/buy-and-sell
+skip_files:
+  - e2e/
+  - node_modules/
+  - src/
+  - coverage
+  - ^(.*/)?\..*$
+  - ^(.*/)?.*\.json$
+  - ^(.*/)?.*\.md$
+  - ^(.*/)?.*\.yaml$
+  - ^LICENSE

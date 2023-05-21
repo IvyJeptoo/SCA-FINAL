@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "default": "listing-works-project"
+  },
+  "targets": {
+    "listing123": {
+      "hosting": {
+        "buy-and-sell": [
+          "listing-web-app"
+        ]
+      }
+    },
+    "listing-works-project": {
+      "hosting": {
+        "buy-and-sell": [
+          "listing-web-app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

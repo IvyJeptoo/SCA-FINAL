@@ -1,13 +1,18 @@
-FROM node:17-alpine
+
+FROM node:16-alpine AS build
 
 WORKDIR /app
 
-COPY package.json .
+COPY . .
 
 RUN npm install
 
-COPY . .
+RUN npm run build
 
-EXPOSE 3000
+FROM nginx:alpine
 
-CMD ["npm", "start"]
+
+COPY --from=build /app/dist/buy-and-sell/ /usr/share/nginx/html
+
+EXPOSE 80
+
