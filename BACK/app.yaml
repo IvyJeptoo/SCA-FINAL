@@ -1,9 +1,10 @@
 runtime: nodejs
+service: buy-and-sell-nodejs
 env: flex
 beta_settings:
-  cloud_sql_instances: buy-and-sell-387319:us-west1:buy-and-sell-db
+  cloud_sql_instances: buy-and-sell-27dd1:us-central1:buy-and-sell-db
 env_variables:
   DB_USER: hapi-server
   DB_PASS: '@Stacy2009'
   DB_NAME: buy-and-sell
-  DB_SOCKET: /cloudsql/buy-and-sell-387319:us-west1:buy-and-sell-db
+  DB_SOCKET: /cloudsql/buy-and-sell-27dd1:us-central1:buy-and-sell-db
