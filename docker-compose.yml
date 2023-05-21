@@ -1,5 +1,14 @@
 version: '3.8'
 services:
+  BACK:
+    build: ./BACK
+    container_name: back_backend
+    ports:
+      - '4000:4000'
+    volumes:
+      - ./back:/app
+      - ./app/node_modules
+
   
   buy-and-sell:
     build: ./buy-and-sell
