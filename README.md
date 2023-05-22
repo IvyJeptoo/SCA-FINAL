@@ -1,8 +1,25 @@
 # SCA-FINAL - Listing Project
 This is a buy and sell application where users can be able to log in using their google account and check all the available items. They can also create their own listing and have the freedom to edit or delete the listing. A user can see the number of times a listing has been viewsd and they can contact the ownder if they are interested.
 
-**N/B**:
-To set up the whole environment for deployment and and set up MySQL check out the **project overview** folder
+
+## Application Overview
+This application is built using the following technologies and components:
+
+- Frontend: Angular
+- Backend: Node.js with Hapi.js framework
+- Database: MySQL
+- Authentication: Firebase
+- Database Management: MySQL Workbench
+- Cloud Deployment: Google Cloud Platform
+
+## Features
+- Angular frontend for building dynamic and responsive user interfaces.
+- Node.js backend using Hapi.js framework for building scalable and efficient server-side applications.
+- MySQL database for storing and retrieving data.
+- Firebase authentication for secure user authentication and authorization.
+- MySQL Workbench for managing the MySQL database with features like schema design and SQL development.
+- Google Cloud Platform for cloud deployment, hosting, and management of the application.
+- Cloud-based MySQL database instance created on Google Cloud Platform.
 
 ## Setting Up NodeJs and Angular
 
@@ -58,12 +75,6 @@ Now that we have node installed, we need to set up back-end and front-end
 To run the server 
 
     $ npm run dev
-
-
-
-
-
-
 
 ---
 
