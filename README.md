@@ -1,6 +1,8 @@
 # SCA-FINAL - Listing Project
 This is a buy and sell application where users can be able to log in using their google account and check all the available items. They can also create their own listing and have the freedom to edit or delete the listing. A user can see the number of times a listing has been viewsd and they can contact the ownder if they are interested.
 
+**Check _project-setup-deployment.md_ file to do your installations and deployment** 
+
 
 ## Application Overview
 This application is built using the following technologies and components:
